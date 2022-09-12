@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order stock</title>
+    <link rel="stylesheet" href="OrderStock.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SPMS</h1>
+      <ul class="nav-elements">
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="order-stock-container">
+      <form action="Backened/orderStock.php" method="post">
+        <div>
+          <label
+            >Enter number<br />
+            of Pieces needed</label
+          >
+          <input
+            name="numberOfPierces"
+            type="number"
+            name="order-stock-pieces"
+            placeholder="eg. 50 pieces  "
+            class="order-stock-input"
+            required
+          />
+        </div>
+
+        <button class="order-stock-button" name="orderStock">Submit</button>
+      
+      </form>
+
+      <a href="SchoolLandingPage.html"><button class="order-stock-button">Back</button></a>
+    </div>
+  </body>
+</html>

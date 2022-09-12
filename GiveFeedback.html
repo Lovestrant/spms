@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Give feedback</title>
+    <link rel="stylesheet" href="GiveFeedback.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SPMS</h1>
+      <ul class="nav-elements">
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="give-feedback-container">
+      <form method="post" action="Backened/Feedback.php">
+        <div style="display: flex; gap: 2rem">
+          <label>Enter feedback<br />(ie, pieces received <br />or not) </label>
+          <input
+            type="text"
+            name="Thefeedback"
+            placeholder="eg. the donation was received..pieces were:"
+            class="give-feedback-input"
+            required
+          />
+        </div>
+        <button class="give-feedback-button" name="feedback">Submit</button>
+        
+      </form>
+      <a href="SchoolLandingPage.html"><button class="give-feedback-button">Back</button></a>
+    </div>
+  </body>
+</html>

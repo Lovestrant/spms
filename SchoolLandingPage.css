@@ -1,0 +1,45 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gold;
+}
+.nav-elements {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.school-landing-page-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+.navigation-holder {
+  height: 70%;
+  width: 25%;
+  background-color: rgb(210, 208, 208);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.linker {
+  height: 30%;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

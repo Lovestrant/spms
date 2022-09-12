@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10rem;
+}
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gold;
+}
+.nav-elements {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+}
+
+.give-donation-container {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(210, 208, 208);
+  border-radius: 5px;
+  justify-content: space-evenly;
+}
+.give-donation-button {
+  width: 140px;
+  height: 40px;
+  background-color: blue;
+  border: black;
+  border-radius: 5px;
+  margin-left: 25em;
+  margin-top: 5em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 2em;
+}
+.give-donation-input {
+  height: 40px;
+  border: 2px black;
+  border-radius: 5px;
+  margin-left: 3em;
+}

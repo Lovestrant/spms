@@ -1,0 +1,58 @@
+.body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gold;
+}
+.nav-elements {
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.view-reports-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.individual-school {
+  height: 80%;
+  width: 60%;
+  background-color: rgb(210, 208, 208);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  margin-top: 1.5rem;
+}
+
+.aligner {
+  display: flex;
+  flex-direction: column;
+}
+.view-report-button-container {
+  width: 50%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+.view-report-button {
+  width: 140px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 5px;
+}

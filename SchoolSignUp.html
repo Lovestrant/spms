@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School sign Up</title>
+    <link rel="stylesheet" href="SchoolSignUp.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SPMS</h1>
+      <ul class="nav-elements">
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="school-sign-up-container">
+      <form method="post" action="Backened/Signup.php">
+        <div>
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="eg. muringato@gmail.com  "
+            class="school-sign-up-input"
+            required
+          />
+        </div>
+        <div>
+          <label>School Name</label>
+          <input
+            type="text"
+            name="schoolName"
+            placeholder="eg. Alliance Hign School"
+            class="school-sign-up-input"
+            required
+          />
+        </div>
+        <div>
+          <label
+            >County 
+            no</label
+          >
+          <input
+            type="text"
+            name="countyNo"
+            placeholder="eg. 2040778243920 "
+            class="school-sign-up-input"
+            required
+          />
+        </div>
+        <div>
+          <label
+            >Number of Students</label
+          >
+          <input
+            type="number"
+            name="StudentNumber"
+            placeholder="eg. 2040778243920 "
+            class="school-sign-up-input"
+            required
+          />
+        </div>
+        <div>
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="password"
+            class="school-sign-up-input"
+            required
+          />
+        </div>
+        <button class="school-sign-up-button" name="Submit">Register</button>
+      </form>
+
+      <h4>Already have an account?</h4>
+
+      <a href="SchoolSignIn.html"><button class="school-sign-up-button">Login</button></a>
+    </div>
+  </body>
+</html>

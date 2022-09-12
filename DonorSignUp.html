@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donor signup</title>
+    <link rel="stylesheet" href="DonorSignUp.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SPMS</h1>
+      <ul class="nav-elements">
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="donor-sign-up-container">
+      <form method="post" action="Backened/Signup.php">
+        <div>
+          <label>FullName</label>
+          <input
+            type="text"
+            name="fullname"
+            placeholder="eg. Kemboi Lovestrant"
+            class="donor-sign-up-input"
+            required
+          />
+        <div> <br>
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="eg. johnDoe@gmail.com  "
+            class="donor-sign-up-input"
+            required
+          />
+        </div> <br>
+        <div>
+          <label>Password</label>
+          <input
+            type="password"
+            name="password"
+            placeholder="password"
+            class="donor-sign-up-input"
+            required
+          />
+        </div><br>
+        <button class="donor-sign-up-button" name="DonorSubmit">Sign up</button>
+      </form>
+
+      <h4>Already have <br />an account?</h4>
+    </div>
+    <a href="DonorSignIn.html"><button class="donor-sign-up-button">Login</button></a>
+  </body>
+</html>

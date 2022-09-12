@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Give Donation</title>
+    <link rel="stylesheet" href="GiveDonations.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <h1>SPMS</h1>
+      <ul class="nav-elements">
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="give-donation-container">
+      <form method="post" action="Backened/giveDonations.php">
+        <div>
+          <label
+            >Enter number<br />
+            of Pieces</label
+          >
+          <input
+            type="number"
+            name="numberOfPierces"
+            placeholder="eg. 50 pieces  "
+            class="give-donation-input"
+            required
+          />
+        </div>
+
+        <button class="give-donation-button" name="Donate">Donate</button>
+      </form>
+     <a href="DonorLandingPage.html"> <button class="give-donation-button">Back</button></a>
+    </div>
+  </body>
+</html>
